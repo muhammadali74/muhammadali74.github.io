@@ -24,8 +24,8 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
-          title: "projects",
-          description: "Some of my personal projects",
+          title: "Projects",
+          description: "Some of the projects that I have done during my undergraduate",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "Syed Muhammad Ali&#39;s CV",
+          description: "Please refer to the pdf for the full CV.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -440,16 +440,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-completed-my-research-internship-at-texas-a-amp-amp-m-university",
+          title: 'Completed my research internship at Texas A&amp;amp;amp;M University!',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-graduated-with-a-4-0-from-habib-university",
+          title: 'Graduated with a 4.0 from Habib University',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-joined-covolv-ai-as-a-software-engineer-algorithms-for-autonomous-vehicles",
+          title: 'Joined Covolv.ai as a Software Engineer - Algorithms for Autonomous Vehicles',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -515,7 +515,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/muhammad.a1i", "_blank");
+          window.open("https://www.linkedin.com/in/muhammad-a1i", "_blank");
         },
       },{
       id: 'light-theme',
