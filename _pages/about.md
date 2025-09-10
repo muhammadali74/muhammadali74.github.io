@@ -27,8 +27,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, I'm a Computer Science undergraduate at Habib University, Pakistan, with a strong interdisciplinary background in Electrical Engineering and Mathematics.
+My interests lies in Embodied AI, Robotics, Control Systems, and Robot Foundation Models. I'm passionate about developing the next generation of Autonomous Mobile Robots—systems capable of navigating complex, unstructured environments, understanding their surroundings, and making intelligent decisions autonomously.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I believe the future of robotics lies in a hybrid approach that merges classical control methods with modern, data-driven foundation models—unlocking new levels of adaptability and intelligence in real-world applications.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Currently, I’m working as an Autonomous Vehicle Algorithms Engineer at a stealth-mode European startup. My hands-on experience spans across robotics, AI, deep learning, and control theory, enabling me to tackle complex problems in this rapidly evolving domain.
+
+Have any questions, or just want to have a chat about Embodied AI, Robotics, VLMs/VLAs, or Autonomous Robots? Reach out to me on LinkedIn, or send me an email!
+
+<!-- Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
