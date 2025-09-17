@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: ALIF 
+description: Series of Urdu Pretrained Generative Models
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: undergrad
 related_publications: true
 ---
 
@@ -16,8 +16,8 @@ To give your project a background in the portfolio page, just add the img tag to
 
     ---
     layout: page
-    title: project
-    description: a project with a background image
+    title: ALIF: Series of Urdu Pretrained Generative Models
+    description: 
     img: /assets/img/12.jpg
     ---
 
