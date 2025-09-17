@@ -5,7 +5,7 @@ repo_description_lines_max: 2
 
 github_repos:
   - muhammadali74/PincherX_PickPlace_Package
-  - muhammadali74/TerritorialWars_Basys3
   - muhammadali74/RISCV-Verilog
   - muhammadali74/Kinova-Gen3-FK-IK
   - muhammadali74/RRT_PathPlanning
+  - muhammadali74/ALIF-LLM
