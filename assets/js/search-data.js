@@ -51,14 +51,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
+        },{id: "dropdown-blog",
               title: "blog",
               description: "",
               section: "Dropdown",
@@ -436,8 +429,8 @@ ninja.data = [{
             },},{id: "news-completed-my-research-internship-at-texas-a-amp-amp-m-university",
           title: 'Completed my research internship at Texas A&amp;amp;amp;M University!',
           description: "",
-          section: "News",},{id: "news-graduated-with-a-4-0-from-habib-university",
-          title: 'Graduated with a 4.0 from Habib University',
+          section: "News",},{id: "news-graduated-with-distinction-from-habib-university",
+          title: 'Graduated with distinction from Habib University',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
