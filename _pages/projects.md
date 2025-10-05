@@ -5,7 +5,7 @@ permalink: /projects/
 description: Some of the projects that I have done during my undergraduate
 nav: true
 nav_order: 3
-display_categories: [undergrad, hobby]
+display_categories: [undergrad, research]
 horizontal: false
 ---
 
