@@ -2,7 +2,7 @@
 layout: page
 title: ALIF 
 description: Series of Urdu Pretrained Generative Models
-img: assets/img/12.jpg
+img: assets/img/alif.png
 importance: 1
 category: undergrad
 related_publications: true
