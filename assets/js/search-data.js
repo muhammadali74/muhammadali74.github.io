@@ -435,8 +435,8 @@ ninja.data = [{
           description: "Series of Urdu Pretrained Generative Models",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-bin-pick-and-place-pincher-x",
-          title: 'Bin Pick and Place | Pincher X',
+            },},{id: "projects-bin-pick-place-pipeline-pincher-x",
+          title: 'Bin Pick Place pipeline | Pincher X',
           description: "a vision-assisted algorithm pipeline for bin-picking task using PincherX arm.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
