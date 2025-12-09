@@ -2,7 +2,7 @@
 layout: page
 title: RISC-V Processor Design
 description: 32-bit RISC-V processor with single-cycle and pipelined implementations in Verilog
-img: assets/img/riscv_processor.jpg
+img: assets/img/riscv_processor.png
 importance: 3
 category: undergrad
 ---
