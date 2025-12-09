@@ -5,7 +5,6 @@ description: a vision-assisted algorithm pipeline for bin-picking task using Pin
 img: assets/img/PincherX.png
 importance: 2
 category: undergrad
-giscus_comments: true
 ---
 
 <div class="text-center mt-5">
