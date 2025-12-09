@@ -1,80 +1,68 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: Basys3 Joystick Interfacing via XADC
+description: Interfacing a non-PMOD joystick with the Basys3 FPGA using its built-in XADC analog-to-digital converter.
+img: /assets/img/basys3-xadc-circuit.png
+category: undergrad
+importance: 5
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This project demonstrates how to interface an **ordinary, non-PMOD joystick module** with the **Basys3 FPGA** by using its built-in **XADC (Analog-to-Digital Converter)**.  
+Because the XADC can only read **0–1V** differential analog input, a voltage divider and careful signal conditioning were used to ensure safe operation.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The setup allows reading **X and Y axis potentiometer outputs** and switching between them using a **multiplexer**, enabling smooth real-time joystick control for FPGA applications such as games or robotics.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## 🔗 Project Links
+- **GitHub Repository:**  
+  👉 https://github.com/muhammadali74/Basys3-Joystick-Interfacing  
+- **Short Project Report (PDF):**  
+  👉 *Interfacing Joystick Using Basys3 XADC* :contentReference[oaicite:1]{index=1}
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+---
+
+## Overview
+
+The Basys3 FPGA contains a dual-12-bit XADC capable of sampling up to **1 MSPS**.  
+This project uses:
+
+- **Unipolar configuration** (negative differential pin grounded)  
+- **Voltage divider** (15kΩ + 680Ω) to ensure joystick output stays < 1V  
+- **Analog PMOD header (JXADC)** on Basys3  
+- **Multiplexer** to switch between VRx and VRy inputs  
+- **16-bit digital output** as joystick position signal for game logic
+
+---
+
+## Circuit Diagram
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm-10 mt-3 mt-md-0">
+    {% include figure.liquid path="/assets/img/basys3-xadc-circuit.png" title="Circuit Diagram: Joystick → Voltage Divider → XADC Inputs" class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
+
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Joystick  wired through voltage divider to Basys3 Analog PMOD.  
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+---
 
-{% raw %}
+## How It Works
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+- The joystick’s two potentiometers output variable voltages for **X** and **Y** axes.  
+- Each axis voltage is scaled down to < 1V via the voltage divider.  
+- The Basys3 XADC reads one analog channel at a time.  
+- A **multiplexer** switches between the two analog channels at high frequency.  
+- The resulting 16-bit `data` signal is fed into FPGA logic (games, movement control, etc.)
+
+---
+
+
+
+<div class="caption">
+    Reading analog joystick position and mapping it to FPGA logic.
 </div>
-```
 
-{% endraw %}
+
