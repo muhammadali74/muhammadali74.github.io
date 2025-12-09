@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "Github Repositories",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
@@ -440,9 +440,9 @@ ninja.data = [{
           description: "a vision-assisted algorithm pipeline for bin-picking task using PincherX arm.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-risc-v-processor-design",
+          title: 'RISC-V Processor Design',
+          description: "32-bit RISC-V processor with single-cycle and pipelined implementations in Verilog",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
