@@ -1,80 +1,46 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: Navigation Smart Cane
+description: An indoor navigation assistive device for the visually impaired, built using embedded systems, computer vision, and pathfinding algorithms.
 img:
-importance: 3
-category: fun
+importance: 4
+category: undergrad
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The **Navigation Smart Cane** is an assistive indoor navigation system designed to help visually impaired individuals safely navigate buildings.  
+The system integrates **ultrasonic sensing, indoor pathfinding, haptic feedback**, and a **ROS-based navigation pipeline** to provide real-time obstacle avoidance and directional guidance.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project combines efficient algorithms, and user-centric design to create a practical, low-cost mobility aid.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### 🔗 Project Links
+- **GitHub Repository:** [Navigation-Smart-Cane](https://github.com/muhammadali74/Navigation-Smart-Cane)  
+- **Full Project Report (PDF):** [Smart Walking Cane for Indoor Navigation for the Visually Impaired](https://github.com/muhammadali74/Navigation-Smart-Cane/blob/main/Smart%20Walking%20Cane%20for%20Indoor%20Navigation%20for%20the%20Visually%20Impaired.pdf)
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## Features
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+- **Indoor Navigation:** Converts building floor plans into graph structures for pathfinding.  
+- **Obstacle Detection:** Ultrasonic sensors detect obstacles and trigger haptic feedback.  
+- **Real-Time Guidance:** Voice or vibration guidance to help navigate hallways and avoid collisions.  
+- **Lightweight & Low-Cost:** Designed to be built affordably using off-the-shelf components.  
+- **User Safety Focus:** Reliable, non-intrusive guidance suitable for visually impaired users.
 
-{% raw %}
+---
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
 
-{% endraw %}
+## Technical Highlights
+
+- **Software:** Pathfinding (Dijkstra / A*), ROS-based simulation  
+- **Mapping:** Grid-based map → navigation graph → optimized path  
+- **Feedback:** Haptic alerts plus directional cues  
+
+---
+
+## More Details
+
+Read the complete methodology, system design, experiments, and evaluation in the **full project report**:
+
+👉 **[Download the PDF](https://github.com/muhammadali74/Navigation-Smart-Cane/blob/main/Smart%20Walking%20Cane%20for%20Indoor%20Navigation%20for%20the%20Visually%20Impaired.pdf)**
+
+---
