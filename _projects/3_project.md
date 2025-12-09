@@ -25,7 +25,7 @@ Both support the RV32I instruction set with full arithmetic, logical, memory, an
         {% include figure.liquid loading="eager" path="assets/img/riscv_single_cycle.jpg" title="Single-Cycle Design" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/riscv_pipelined.jpg" title="Pipelined Design" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/riscv_processor.png" title="Pipelined Design" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -100,18 +100,7 @@ vsim tb_processor
 cd pipelined
 vlog *.v
 vsim tb_processor
-```
-
-## Learning Value
-
-This project covers essential computer architecture topics:
-
-CPU datapath and control unit design  
-Instruction-level parallelism through pipelining  
-Hazard detection and resolution  
-Verilog HDL for hardware description  
-RISC-V ISA fundamentals  
-Digital design simulation and verification  
+``` 
 
 ## Repository
 
