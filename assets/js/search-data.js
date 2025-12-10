@@ -10,7 +10,7 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-publications",
-          title: "Publications",
+          title: "publications",
           description: "Conference presentations, publications, and preprint reports",
           section: "Navigation",
           handler: () => {
@@ -450,19 +450,19 @@ ninja.data = [{
           description: "An indoor navigation assistive device for the visually impaired, built using embedded systems, computer vision, and pathfinding algorithms.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-basys3-joystick-interfacing-via-xadc",
+          title: 'Basys3 Joystick Interfacing via XADC',
+          description: "Interfacing a non-PMOD joystick with the Basys3 FPGA using its built-in XADC analog-to-digital converter.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+            },},{id: "projects-territorial-wars-basys3-fpga-game",
+          title: 'Territorial Wars — Basys3 FPGA Game',
+          description: "A two-player competitive territory-building game implemented on the Basys3 FPGA using VGA display, dual-joystick input, and multiple custom digital design modules.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+            },},{id: "projects-cas13b-crrna-discovery-amp-machine-learning-pipeline-for-dengue-virus",
+          title: 'CAS13b crRNA Discovery &amp;amp; Machine Learning Pipeline for Dengue Virus',
+          description: "An end-to-end computational pipeline for designing high-efficacy CRISPR-Cas13b guide RNAs targeting all four Dengue virus serotypes using genome analysis, biochemical optimization, and machine learning.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
             },},{id: "projects-project-8",
