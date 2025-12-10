@@ -3,7 +3,7 @@ layout: page
 title: Territorial Wars — Basys3 FPGA Game
 description: A two-player competitive territory-building game implemented on the Basys3 FPGA using VGA display, dual-joystick input, and multiple custom digital design modules.
 img: /assets/img/territorial_wars_front.png
-category: work
+category: undergrad
 importance: 6
 ---
 
