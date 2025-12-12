@@ -419,10 +419,12 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-completed-my-research-internship-at-texas-a-amp-amp-m-university",
-          title: 'Completed my research internship at Texas A&amp;amp;amp;M University!',
+            },},{id: "news-research-internship-at-texas-a-amp-m-university",
+          title: 'Research Internship at Texas A&amp;amp;M University',
           description: "",
-          section: "News",},{id: "news-graduated-with-distinction-from-habib-university",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_1/";
+            },},{id: "news-graduated-with-distinction-from-habib-university",
           title: 'Graduated with distinction from Habib University',
           description: "",
           section: "News",handler: () => {
