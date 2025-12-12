@@ -424,6 +424,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_1/";
+            },},{id: "news-faysal-bank-fintech-hackathon-2024",
+          title: 'Faysal Bank Fintech Hackathon 2024',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_4/";
             },},{id: "news-graduated-with-distinction-from-habib-university",
           title: 'Graduated with distinction from Habib University',
           description: "",
