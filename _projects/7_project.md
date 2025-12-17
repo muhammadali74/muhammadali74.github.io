@@ -12,7 +12,7 @@ The pipeline combines **large-scale genomic analysis**, **Cas13b-specific bioche
 
 ---
 
-## 🔬 Project Motivation
+## Project Motivation
 
 Dengue infects nearly 400 million people annually, yet therapeutic options remain extremely limited.  
 Cas13b, an RNA-targeting CRISPR system, has shown strong antiviral potential—but **guide RNA design for Cas13b is not well established**, and there is **no standard computational tool** focused on viral inhibition.
@@ -21,7 +21,7 @@ This project addresses that gap by building a **full in-silico crRNA discovery p
 
 ---
 
-## 🧪 Pipeline Summary
+## Pipeline Summary
 
 The workflow consists of five major stages:
 
@@ -64,7 +64,7 @@ A final set of **high-efficacy, pan-serotype crRNAs** is produced.
 
 ---
 
-## 🧬 Representative High-Confidence crRNAs
+## Representative High-Confidence crRNAs
 
 The following optimized candidates show strong predicted activity:
 
@@ -75,7 +75,7 @@ The following optimized candidates show strong predicted activity:
 
 ---
 
-## 🧠 Key Insights From the Study
+## Key Insights From the Study
 
 - Cytosine-rich sequences (especially **CC**) significantly reduce Cas13b activity  
 - Beneficial G insertions cluster in the **first two positions**  
@@ -84,11 +84,11 @@ The following optimized candidates show strong predicted activity:
 
 ---
 
-## 📄 Project Report
+## Project Report
 
-Full research paper, including figures, results, and methodology:  
+Full research paper, (currenlty under review)  
 **CAS13b Pipeline Research Report (PDF)**  
-(You may host it on your site or link to your GitHub repo.)
+
 
 ---
 
@@ -98,7 +98,7 @@ Full research paper, including figures, results, and methodology:
 
 ---
 
-## 🧭 Future Directions
+## Future Directions
 
 - Expand dataset with large Cas13b screen experiments  
 - Integrate RNA secondary structure and target accessibility  

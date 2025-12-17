@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Faysal Bank Fintech Hackathon 2024
+title: Won the Faysal Bank Fintech Hackathon 2024
 date: 2024-11-30
 inline: false
 related_posts: false
 ---
 
-Participated in the **FBL Fintech Hackathon 2024**.
+We Won the **FBL Fintech Hackathon 2024**.
 --
 
 In Fall 2024, I, along with my batchmates **Ali Nisar**, **Neha**, and **Maaz**, took part in the Fintech Hackathon organized by **Faysal Bank**. The challenge required participants to design meaningful solutions for the future of banking in Pakistan.  
