@@ -424,8 +424,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_1/";
-            },},{id: "news-faysal-bank-fintech-hackathon-2024",
-          title: 'Faysal Bank Fintech Hackathon 2024',
+            },},{id: "news-won-the-faysal-bank-fintech-hackathon-2024",
+          title: 'Won the Faysal Bank Fintech Hackathon 2024',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_4/";
