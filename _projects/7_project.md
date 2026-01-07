@@ -64,17 +64,6 @@ A final set of **high-efficacy, pan-serotype crRNAs** is produced.
 
 ---
 
-## Representative High-Confidence crRNAs
-
-The following optimized candidates show strong predicted activity:
-
-- **DENV-1:** `GGAGTAGTCGTACTAGGATCACAAGAAGGA` — Efficiency **0.881**
-- **DENV-2:** `GGAGACAGAGGATGGGGAAATGGATGTGGA` — Efficiency **0.878**
-- **DENV-3:** `GGTGCAAGGCGGATGGGCATCTTGGGAGAC` — Conservation **69.9%**
-- **DENV-4:** `GGAACAAGATGTCCAAGGCAAGGAGAGCCT` — Conservation **80.5%**
-
----
-
 ## Key Insights From the Study
 
 - Cytosine-rich sequences (especially **CC**) significantly reduce Cas13b activity  
@@ -87,7 +76,7 @@ The following optimized candidates show strong predicted activity:
 ## Project Report
 
 Full research paper, (currenlty under review)  
-**CAS13b Pipeline Research Report (PDF)**  
+**[CAS13b Pipeline Research Report (PDF)](https://www.biorxiv.org/content/10.64898/2025.12.31.697158v1.full.pdf)**  
 
 
 ---
