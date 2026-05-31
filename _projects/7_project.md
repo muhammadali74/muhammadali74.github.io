@@ -75,8 +75,8 @@ A final set of **high-efficacy, pan-serotype crRNAs** is produced.
 
 ## Project Report
 
-Full research paper, (currenlty under review)  
-**[CAS13b Pipeline Research Report (PDF)](https://www.biorxiv.org/content/10.64898/2025.12.31.697158v1.full.pdf)**  
+Full research paper, 
+**[CAS13b Pipeline Research Report (PDF)](https://www.biorxiv.org/content/10.64898/2025.12.31.697158v2.full.pdf)**  
 
 
 ---
