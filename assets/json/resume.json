@@ -29,7 +29,7 @@
       "summary": "Built and deployed ML-based perception for L2+ autonomous driving products.",
       "highlights": [
         "Real-time multi-camera BEV perception pipeline in ROS 2, 6 streams at 25 FPS on embedded hardware.",
-        "Moved inference from GPU to the Hexagon Tensor Processor for an 87% end-to-end speedup."
+        "Offloaded inference from GPU to a dedicated AI accelerator for an 87% end-to-end speedup."
       ]
     },
     {
