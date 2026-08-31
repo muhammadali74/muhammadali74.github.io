@@ -1,64 +1,79 @@
 {
   "basics": {
-    "name": "Syed Muhammad Ali",
-    "label": "Robotics Engineer",
+    "name": "Syed Muhammad Ali Naqvi",
+    "label": "AI & Robotics Engineer",
     "image": "",
     "email": "alimuhammad7465@gmail.com",
-    "summary": "A Robotics Engineer with a passion for developing the next generation of Autonomous robots and a strong background in Computer Science and Engineering. Skilled in programming languages such as Python, C++, with experience in deep learning, computer vision and robotics."
+    "summary": "AI and Robotics Engineer working on embodied AI, autonomous mobile robots, and perception. Background in Computer Science with minors in Electrical & Computer Engineering and Mathematics. Interested in merging classical control with modern data-driven foundation models."
   },
   "work": [
     {
+      "name": "Farmevo Technologies",
+      "position": "AI & Robotics Engineer (R&D)",
+      "location": "Karachi, Pakistan",
+      "url": "https://farmevo.ai/",
+      "startDate": "2026-03",
+      "summary": "Leading the software stack for a quadruped-based autonomous sensing platform for forestry.",
+      "highlights": [
+        "Real-time navigation, localization, and multimodal perception on a legged platform.",
+        "LiDAR-camera 3D reconstruction and tree segmentation for forest inventory and carbon stock estimation."
+      ]
+    },
+    {
       "name": "Covolv.ai",
       "position": "Autonomous Vehicle Algorithms Engineer",
+      "location": "Karachi, Pakistan",
       "url": "https://covolv.ai/",
-      "startDate": "June 2025",
-      "endDate": "Present",
-      "summary": "Working on the development, optimization and deployment of ML-based algorithms for autonomous driving products for OEMs.",
-      "highlights": ["Perception, Edge AI"]
+      "startDate": "2025-06",
+      "endDate": "2026-03",
+      "summary": "Built and deployed ML-based perception for L2+ autonomous driving products.",
+      "highlights": [
+        "Real-time multi-camera BEV perception pipeline in ROS 2, 6 streams at 25 FPS on embedded hardware.",
+        "Moved inference from GPU to the Hexagon Tensor Processor for an 87% end-to-end speedup."
+      ]
     },
-        {
+    {
+      "name": "Habib University",
+      "position": "Undergraduate Research Assistant",
+      "location": "Karachi, Pakistan",
+      "url": "https://habib.edu.pk/",
+      "startDate": "2024-09",
+      "endDate": "2025-04",
+      "summary": "Computational pipeline for CRISPR-Cas13b guide RNA design against Dengue virus.",
+      "highlights": ["Published at BICOB 2026; ML-ranked crRNA candidates across all four serotypes."]
+    },
+    {
       "name": "Texas A&M University",
-      "position": "Research Intern",
-      "url": "https://www.tamu.edu/index.html",
-      "startDate": "May 2024",
-      "endDate": "July 2024",
-      "summary": "Worked on removal of non-linearities from the calibration signal for hyperspectral imaging system.",
-      "highlights": ["Developed a deep learning based spectral calibration pipeline using LSTMs, reducing calibration error to 12%"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "The Bridge School",
-      "location": "Karachi, Pakistan",
-      "position": "Web Developer",
-      "url": "https://thebridgeschool.org.pk/",
-      "startDate": "June 2024",
-      "endDate": "December 2024",
-      "summary": "Web Developer at The Bridge School -- a non-profit charity organization -- responsible for developing and maintaining the school's website.",
-      "highlights": ["Improved content management system.", "Improved website accessibility and performance."]
+      "position": "Summer Research Intern",
+      "location": "College Station, Texas",
+      "url": "https://www.tamu.edu/",
+      "startDate": "2024-05",
+      "endDate": "2024-07",
+      "summary": "Spectral calibration for Swept-Source Optical Coherence Tomography at the Mixed Signals Lab.",
+      "highlights": ["Deep learning calibration pipeline using LSTMs, reducing calibration error to 12%."]
     },
     {
-      "organization": "SerVe Club, Habib University",
+      "name": "Habib University",
+      "position": "Teaching Assistant",
       "location": "Karachi, Pakistan",
-      "position": "Digital Literacy Instructor",
-      "url": "https://habib.edu.pk/student-life/student-organizations-and-clubs/",
-      "startDate": "August 2022",
-      "endDate": "December 2022",
-      "summary": "Digital Literacy Instructor at SerVe Club -- a student organization at Habib University -- which raises funds and volunteers for a range of causes across health, education, and social service that benefit needy stakeholders, inside and outside Pakistan.",
-      "highlights": ["Developed curriculum for digital literacy program.", "Conducted workshops on technological awareness, and digital skills."]
+      "url": "https://habib.edu.pk/",
+      "startDate": "2022-08",
+      "endDate": "2025-04",
+      "summary": "TA for 6 courses across CS, mathematics, and AI, including Deep Learning and Algorithm Design.",
+      "highlights": ["Awarded Best Teaching Assistant, Spring 2024."]
     }
   ],
   "education": [
     {
       "institution": "Habib University",
       "location": "Karachi, Pakistan",
-      "url": "https://www.habib.edu.pk/",
-      "area": "Computer Science and Engineering",
-      "studyType": "Bachelors",
-      "startDate": "August 2021",
-      "endDate": "May 2025",
+      "url": "https://habib.edu.pk/",
+      "area": "Computer Science",
+      "studyType": "BS",
+      "startDate": "2021-08",
+      "endDate": "2025-05",
       "score": "4.0/4.0",
-      "courses": ["Robotics, Mobile Robotics, Statistics, Feedback Control, Algorithms Design"]
+      "courses": ["Minors in Electrical & Computer Engineering and Mathematics"]
     },
     {
       "institution": "Stanford University",
@@ -66,58 +81,111 @@
       "url": "https://www.stanford.edu/",
       "area": "Computer Science (General Studies)",
       "studyType": "International Honors Program",
-      "startDate": "June 2023",
-      "endDate": "August 2023",
+      "startDate": "2023-06",
+      "endDate": "2023-08",
       "score": "3.887/4.3",
       "courses": ["Machine Learning, High Performance Computing, Technological Entrepreneurship"]
+    }
+  ],
+  "publications": [
+    {
+      "name": "Computational Discovery of CRISPR-Cas13b Guide RNAs for Broad-Spectrum Dengue Virus Targeting",
+      "publisher": "BICOB 2026, Springer Nature Switzerland",
+      "releaseDate": "2026-03",
+      "url": "https://doi.org/10.1007/978-3-032-26028-4_18",
+      "summary": "An end-to-end pipeline for designing Cas13b guide RNAs targeting all four Dengue serotypes."
+    },
+    {
+      "name": "Impedance-Based Crack Detection in Chemical Tanks",
+      "publisher": "IEEE INMIC 2024",
+      "releaseDate": "2024-12",
+      "url": "https://ieeexplore.ieee.org/document/11004358",
+      "summary": "An impedance-based method for detecting cracks in chemical storage tanks."
+    },
+    {
+      "name": "Fine-tuned LLM based approach to Scientific Text Simplification",
+      "publisher": "CLEF 2024, CEUR Workshop Proceedings",
+      "releaseDate": "2024-08",
+      "url": "https://ceur-ws.org/Vol-3740/paper-309.pdf",
+      "summary": "Fine-tuned LLMs for making scientific literature accessible to non-experts."
+    }
+  ],
+  "projects": [
+    {
+      "name": "ALIF - Pretrained Urdu Generative Models",
+      "summary": "A series of decoder-based language models pretrained for Urdu.",
+      "highlights": ["6B-token Urdu corpus; 100M and 1B models outperforming comparable multilingual models."],
+      "startDate": "2024-07",
+      "endDate": "2025-05",
+      "url": "https://orature-ai.github.io/ALIF-LLM/"
+    },
+    {
+      "name": "PincherX Pick and Place",
+      "summary": "A perception-based pick-and-place pipeline for a 4DOF arm, written from scratch.",
+      "highlights": ["No external kinematics, motion planning, or control libraries."],
+      "startDate": "2025-01",
+      "endDate": "2025-05",
+      "url": "https://github.com/muhammadali74/PincherX_PickPlace_Package"
     }
   ],
   "awards": [
     {
       "title": "President's Medal",
-      "date": "May 2025",
+      "date": "2025-05",
       "awarder": "Habib University, Pakistan",
       "url": "https://habib.edu.pk/convocation/student-faculty-awards",
-      "summary": "The President's Medal is awarded to one graduate in the entire batch who demonstrates a high academic achievement along with high intellectual and academic growth."
+      "summary": "Awarded to one graduate in the batch for academic achievement and intellectual growth."
     },
     {
       "title": "Dean's Medal",
-      "date": "May 2025",
+      "date": "2025-05",
       "awarder": "Habib University, Pakistan",
       "url": "https://habib.edu.pk/convocation/student-faculty-awards",
-      "summary": "The Dean's Medal is awarded to the graduating student with the highest GPA in the major."
+      "summary": "Awarded to the graduating student with the highest GPA in the major."
+    },
+    {
+      "title": "First Prize, FinTech Innovation Hackathon",
+      "date": "2024-11",
+      "awarder": "Faysal Bank, Pakistan",
+      "url": "https://muhammadali74.github.io/news/",
+      "summary": "For ENVISION, an accessible digital banking app designed for visually impaired users."
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "The Bridge School",
+      "location": "Karachi, Pakistan",
+      "position": "Volunteer Developer",
+      "url": "https://thebridgeschool.org.pk/",
+      "startDate": "2024-05",
+      "endDate": "2024-12",
+      "summary": "Redesigned the website for a non-profit school, with a cleaner CMS workflow.",
+      "highlights": []
+    },
+    {
+      "organization": "SerVe Club, Habib University",
+      "location": "Karachi, Pakistan",
+      "position": "Digital Literacy Instructor",
+      "url": "https://habib.edu.pk/student-life/student-organizations-and-clubs/",
+      "startDate": "2022-08",
+      "endDate": "2022-12",
+      "summary": "Ran digital literacy workshops for the custodial staff of Habib University.",
+      "highlights": []
     }
   ],
   "certificates": [
     {
-      "name": "Supervised Machine Learning: Regression and Classification",
-      "date": "2022-06-01",
-      "issuer": "Coursera, DeepLearning.ai",
-      "url": "https://www.coursera.org/account/accomplishments/certificate/ARGJQZTQBM4M",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
       "name": "Getting Started with Accelerated Computing with CUDA C/C++",
-      "date": "2025-01-01",
-      "issuer": "Nvidia DLI",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Fine-tuned LLM based approach to Scientific Text Simplification",
-      "publisher": "CEUR Workshop Proceedings",
-      "releaseDate": "2024-08-20",
-      "url": "https://ceur-ws.org/Vol-3740/paper-309.pdf",
-      "summary": "This paper presents a fine-tuned LLM-based approach to scientific text simplification, demonstrating its effectiveness in improving the accessibility of complex scientific literature."
+      "date": "2025-01",
+      "issuer": "NVIDIA DLI",
+      "icon": "fa-solid fa-microchip"
     },
     {
-      "name": "Impedance-Based Crack Detection in Chemical Tanks",
-      "publisher": "IEEE",
-      "releaseDate": "2024-12-01",
-      "url": "https://ieeexplore.ieee.org/document/11004358",
-      "summary": "This paper presents an impedance-based method for detecting cracks in chemical tanks, utilizing advanced signal processing techniques to enhance detection accuracy and reliability."
+      "name": "Supervised Machine Learning: Regression and Classification",
+      "date": "2022-06",
+      "issuer": "Coursera, DeepLearning.AI",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/ARGJQZTQBM4M",
+      "icon": "fa-solid fa-certificate"
     }
   ],
   "skills": [
@@ -125,35 +193,25 @@
       "name": "Programming Languages",
       "level": "Advanced",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Python",
-        "JavaScript",
-        "C++",
-        "C",
-        "Matlab"
-      ]
+      "keywords": ["Python", "C++", "C", "MATLAB"]
     },
     {
       "name": "Frameworks & Libraries",
       "level": "Advanced",
-      "icon": "fa-brands fa-react",
-      "keywords": [
-        "ROS2",
-        "PyTorch",
-        "TensorFlow",
-        "HuggingFace",
-        "OpenAI Gym",
-        "OpenCV",
-        "Qualcomm AI Engine Direct SDK",
-        "OpenCL",
-        "CUDA"
-      ]
+      "icon": "fa-solid fa-robot",
+      "keywords": ["ROS 2", "PyTorch", "OpenCV", "TensorRT", "CUDA", "Simulink", "Qualcomm AI Engine Direct SDK"]
+    },
+    {
+      "name": "Hardware",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-microchip",
+      "keywords": ["NVIDIA Jetson/AGX", "Qualcomm SoCs", "Raspberry Pi", "Arduino"]
     }
   ],
   "languages": [
-        {
+    {
       "language": "English",
-      "fluency": "Full Professional Proficiency C1 (IELTS 8.0)",
+      "fluency": "Full Professional Proficiency, C1 (IELTS 8.0)",
       "icon": ""
     },
     {
@@ -167,13 +225,12 @@
       "name": "Robotics and AI",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Robot Foundation Models",
         "Embodied AI",
+        "Robot Foundation Models",
+        "Vision-Language-Action Models",
         "Autonomous Vehicles",
-        "Robot Control",
         "Perception",
-        "Vision-Language Action Models",
-        "End-to-End Robot Learning"
+        "Robot Control"
       ]
     }
   ],
@@ -186,25 +243,7 @@
     {
       "name": "Dr Shah Jamal Alam",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "Associate Dean, Undergraduate Education and Accreditation Associate Professor, Computer Science, Habib University. Email: sj.alam@sse.habib.edu.pk"
-    }
-  ],
-  "projects": [
-    {
-      "name": "ALIF-LLM - Series of Pre-trained Language Models for Urdu",
-      "summary": "ALIF-LLM is a series of pre-trained language models specifically designed for the Urdu language.",
-      "highlights": ["Curated an Urdu pretraining dataset.", "Pre-trained on diverse Urdu text corpora.", "Achieved state-of-the-art results on Urdu NLP benchmarks."],
-      "startDate": "2024-07-15",
-      "endDate": "2025-05-31",
-      "url": "https://orature-ai.github.io/ALIF-LLM/"
-    },
-    {
-      "name": "PincherX Pick and Place Robot",
-      "summary": "A custom implementation-based pick and place robotic arm system using PincherX robot, integrated with computer vision for object detection and localization.",
-      "highlights": [],
-      "startDate": "2025-01-10",
-      "endDate": "2025-05-15",
-      "url": "https://github.com/muhammadali74/PincherX_PickPlace_Package"
+      "reference": "Associate Dean, Undergraduate Education and Accreditation; Associate Professor, Computer Science, Habib University. Email: sj.alam@sse.habib.edu.pk"
     }
   ]
 }
