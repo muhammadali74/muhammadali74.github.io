@@ -10,7 +10,7 @@ We Won the **FBL Fintech Hackathon 2024**.
 --
 
 In Fall 2024, I, along with my batchmates **Ali Nisar**, **Neha**, and **Maaz**, took part in the Fintech Hackathon organized by **Faysal Bank**. The challenge required participants to design meaningful solutions for the future of banking in Pakistan.  
-Our goal was to create a soltion that addresses the bamking needs of the viusally imparied individuals. 
+Our goal was to create a solution that addresses the banking needs of visually impaired individuals. 
 
 We approached this challenge using the **design thinking methodology** taught at Habib University, inspired by the Stanford d.school framework. We conducted interviews, carried out secondary research, explored banking accessibility guidelines, and mapped out the specific pain points visually impaired users face when interacting with modern banking apps.
 
@@ -34,7 +34,7 @@ At the end of the hackathon, we presented our final prototype to the jury. The s
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/fbl_prize.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/fbl_prize.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

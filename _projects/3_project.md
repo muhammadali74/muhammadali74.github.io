@@ -22,14 +22,11 @@ Both support the RV32I instruction set with full arithmetic, logical, memory, an
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/riscv_single_cycle.jpg" title="Single-Cycle Design" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/riscv_processor.png" title="Pipelined Design" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Left: Single-cycle processor with straightforward datapath. Right: 5-stage pipeline with hazard handling.
+    The 5-stage pipelined datapath with hazard handling.
 </div>
 
 ### Single-Cycle Processor

@@ -6,7 +6,7 @@ img: assets/img/alif.png
 importance: 1
 category: undergrad
 related_publications: true
-redirect_to: https://orature-ai.github.io/ALIF-LLM/
+redirect: https://orature-ai.github.io/ALIF-LLM/
 ---
 
 <div class="text-center mt-5">

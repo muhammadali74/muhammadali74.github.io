@@ -1,0 +1,4 @@
+Blog posts live here. The al-folio demo posts were moved to `_drafts/` so they stay
+available as formatting references without being published; preview them locally with
+`bundle exec jekyll serve --drafts`. Move a file back here (named YYYY-MM-DD-title.md)
+to publish it.
