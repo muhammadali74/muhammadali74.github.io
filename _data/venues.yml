@@ -1,9 +1,14 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+# Maps publication venue abbreviations (the `abbr` field in papers.bib)
+# to a link and a badge color.
+
+"BICOB":
+  url: https://dcm.uhcl.edu/bicob26/
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
+"INMIC":
+  url: https://ieeexplore.ieee.org/xpl/conhome/11004180/proceeding
   color: "#009f36"
+
+"CLEF":
+  url: https://clef2024.imag.fr/
+  color: "#9f3600"

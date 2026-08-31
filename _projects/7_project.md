@@ -75,15 +75,14 @@ A final set of **high-efficacy, pan-serotype crRNAs** is produced.
 
 ## Project Report
 
-Full research paper, 
-**[CAS13b Pipeline Research Report (PDF)](https://www.biorxiv.org/content/10.64898/2025.12.31.697158v2.full.pdf)**  
+Full research paper: **[CAS13b Pipeline Research Report (PDF)](https://www.biorxiv.org/content/10.64898/2025.12.31.697158v2.full.pdf)**
 
 
 ---
 
 ## 🔗 GitHub Repository
 
-**https://github.com/muhammadali74/CAS13b_pipeline**
+**[muhammadali74/CAS13b_pipeline](https://github.com/muhammadali74/CAS13b_pipeline)**
 
 ---
 
