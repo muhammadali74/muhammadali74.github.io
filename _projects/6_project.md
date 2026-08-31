@@ -16,12 +16,8 @@ This project was developed as the Final Project **for Digital Logic Design (EE/C
 
 ## 🔗 Project Links
 
-- **GitHub Repository:**  
-  👉 https://github.com/muhammadali74/TerritorialWars_Basys3
-
-- **Full Project Report (PDF):**  
-  👉 Territorial Wars — Digital Logic Design Final Report (2022)  
-  :contentReference[oaicite:1]{index=1}
+- **GitHub Repository:** [TerritorialWars_Basys3](https://github.com/muhammadali74/TerritorialWars_Basys3)
+- **Full Project Report (PDF):** [Territorial Wars — Digital Logic Design Final Report](https://github.com/muhammadali74/TerritorialWars_Basys3/blob/main/DLD_Report.pdf)
 
 ---
 
@@ -172,6 +168,5 @@ Controlled using FPGA push-buttons (C & D).
 
 Read the complete project report for diagrams, RTL schematics, FSM tables, and detailed explanations:
 
-👉 *Territorial Wars — Digital Logic Design Final Report (PDF)*  
-:contentReference[oaicite:2]{index=2}
+👉 *Territorial Wars — Digital Logic Design Final Report (PDF)*
 

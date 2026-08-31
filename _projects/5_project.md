@@ -15,10 +15,8 @@ The setup allows reading **X and Y axis potentiometer outputs** and switching be
 ---
 
 ## 🔗 Project Links
-- **GitHub Repository:**  
-  👉 https://github.com/muhammadali74/Basys3-Joystick-Interfacing  
-- **Short Project Report (PDF):**  
-  👉 *Interfacing Joystick Using Basys3 XADC* :contentReference[oaicite:1]{index=1}
+- **GitHub Repository:** [Basys3-Joystick-Interfacing](https://github.com/muhammadali74/Basys3-Joystick-Interfacing)
+- **Short Project Report (PDF):** [Interfacing Joystick using Basys3 XADC](https://github.com/muhammadali74/Basys3-Joystick-Interfacing/blob/main/Interfacing%20Joystick%20using%20Basys3%20XADC.pdf)
 
 ---
 
